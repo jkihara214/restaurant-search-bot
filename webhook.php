@@ -55,7 +55,7 @@ if($type === 'message') {
 //            );
 //        } else {
         $message = array('type' => 'text',
-            'text' => '【'.$msg_text.'】とは何ですか');
+            'text' => '【'.$msg_text.'】とは何ですか?');
 //        }
     // スタンプを受け取った時
     } elseif($msg_obj === 'sticker') {
